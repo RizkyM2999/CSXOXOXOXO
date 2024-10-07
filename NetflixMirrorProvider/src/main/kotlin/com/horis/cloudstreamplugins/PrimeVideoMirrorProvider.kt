@@ -33,7 +33,7 @@ class PrimeVideoMirrorProvider : MainAPI() {
     )
 
     private suspend fun getCookieFromGithub(): String {
-        val data = app.get("https://raw.githubusercontent.com/SaurabhKaperwan/Utils/main/NF_Cookie.json").parsed<Cookie>()
+        val data = app.get("https://raw.githubusercontent.com/RizkyM2999/UtilsCookie/refs/heads/main/NF_Cookie.json").parsed<Cookie>()
         return data.cookie
     }
 
