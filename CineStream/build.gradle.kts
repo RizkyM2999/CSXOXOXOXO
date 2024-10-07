@@ -1,4 +1,4 @@
-version = 2
+version = 3
 
 cloudstream {
     //language = "en"
@@ -12,5 +12,5 @@ cloudstream {
         "Anime"
     )
 
-    iconUrl = ""
+    iconUrl = "https://raw.githubusercontent.com/SaurabhKaperwan/Utils/refs/heads/main/Cm%20Logo%20PNG%20Vectors%20Free%20Download.jpg"
 }
