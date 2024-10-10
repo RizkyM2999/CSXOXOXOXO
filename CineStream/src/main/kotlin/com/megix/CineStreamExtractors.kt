@@ -142,7 +142,7 @@ object CineStreamExtractors : CineStreamProvider() {
     }
 
     suspend fun getNFCookies(): String? {
-        val json = app.get("https://raw.githubusercontent.com/SaurabhKaperwan/Utils/main/NF_Cookie.json").text
+        val json = app.get("https://raw.githubusercontent.com/RizkyM2999/UtilsCookie/refs/heads/main/NF_Cookie.json").text
         val data = parseJson<NfCookie>(json)
         return data.cookie
     }
